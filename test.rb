@@ -36,7 +36,7 @@ describe "Main" do
 
 	it "should return json" do
 		get '/3'
-		last_response.headers['Content-Type'].must_equal 'application/json'
+		last_response.headers['Content-Type'].must_equal 'application/json;charset=utf-8'
 	end
 	
 	it "should return the correct info about 3 as json" do

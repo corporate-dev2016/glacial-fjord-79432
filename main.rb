@@ -25,7 +25,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-	@title = "Continuous Integration & Continuous Deployment"
+	@title = "Continuous Integration (CI) with Continuous Deployment(CD)"
 	erb :home
 end
 
